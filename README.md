@@ -10,7 +10,7 @@ pip3 install requirements.txt
 ```
 
 ## Training
-The training notebook can be found [here](notebooks\Spam_Classifier.ipynb)
+The training notebook can be found [here](notebooks/Spam_Classifier.ipynb)
 
 ## Inference
 The model can be tested using a text input as follows:
