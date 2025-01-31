@@ -1,5 +1,5 @@
 # spam-classifier
-This repository includes finetuning and deployment of a spam classifier model.
+This repository includes finetuning and deployment of a spam classifier model. It shows how a model can be trained, tested and deployed using Docker and FastAPI. The workflow presented here can be applied to other models.
 
 Model development is based on [Fine-Tuning-BERT repo](https://github.com/prateekjoshi565/Fine-Tuning-BERT/tree/master).
 
@@ -19,7 +19,7 @@ python3 inference.py --weights path_to_weights --text "input text"
 ```
 
 ## Application
-The FastAPI can be run as follows:
+The FastAPI application can be run as follows:
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
 ```
